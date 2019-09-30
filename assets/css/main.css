@@ -1535,8 +1535,9 @@ input, select, textarea {
 	}
 
 		header > p {
-			margin: 0.5em 0 0 0;
-			color: #aaa;
+			letter-spacing: -0.015em;
+			font-size: .7em;
+			margin: 0.25em 0 0 0;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1784,7 +1785,7 @@ input, select, textarea {
 			color: #ffffff;
 			height: 1em;
 			line-height: 0.9em;
-			font-size: 2.5em;
+			font-size: 1.5em;
 			margin: 0 0.25em 0 0.25em;
 			opacity: 0.35;
 			outline: 0;
@@ -1870,9 +1871,10 @@ input, select, textarea {
 				text-decoration: underline;
 			}
 
-				#nav a.active:after {
+				/* #nav a.active:after {
+					margin-bottom: 0.2em;
 					border-bottom-width: 0.5em;
-				}
+				} */
 
 		@media screen and (max-width: 980px) {
 
@@ -2114,7 +2116,7 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-					#main > .panel.intro header p {
+					#main > .panel.intro header {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
 						margin: 0.25em 0 0 0;
